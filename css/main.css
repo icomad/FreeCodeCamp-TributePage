@@ -155,6 +155,16 @@ body {
   font-size: .6rem;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
 @media(min-width: 500px) {
   .landing {
     display: flex;
